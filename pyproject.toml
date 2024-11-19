@@ -5,10 +5,18 @@ description = "A pure (and idiomatic) implementation of TLSH."
 authors = ["Adrian Cederberg <adrn.cederberg123@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+packages = [{include="tlsh"}]
+
 
 [tool.poetry.dependencies]
-python = "3.7^"
+python = "^3.8"
 
+
+[tool.poetry.group.tests.dependencies]
+pytest = "^8.3.3"
+pydantic = "^2.9.2"
+typer = "^0.13.1"
+pyyaml = "^6.0.2"
 
 [build-system]
 requires = ["poetry-core"]

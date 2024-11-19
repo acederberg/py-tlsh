@@ -1,0 +1,7 @@
+hashing:
+  - input: "This is a test for john oliver. This is a string. Hello Hello Hello OPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQ"
+    output: 5cf05a198cc69a5a4f0f9380a9ee92f2b927cf42089ea34276cd5f0fb2d34e6951444d
+  - input: "This is a very long sentence that is just about how long this sentence is and is devoid of much content at all. It goes on, and on, and on, and on and on and one since we need a reasonably long setence to test tsch. Blah blah blah blah blah blah blah blah ablh blah blah blah blah blah blah."
+    output: d6e012525ec400e00b14e07d05d37647d75886add3543cb07167e1ab3f424490f37ad9
+  - input: "This is a very long sentence that is just about how long this sentence is and is devoid of much content at all. It goes on, and on, and on, and on and on and one since we need a reasonably long setence to test tsch. Blah blah blah blah blah blah blah blah ablh blah blah blah blah blah blah. blah blah blah"
+    output: 18e012525ec400e00f14e07d05d37647d75886add3543cb07167e1ab3f424490f37ad9

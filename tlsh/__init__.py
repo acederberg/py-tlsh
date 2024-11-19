@@ -850,7 +850,7 @@ bit_pairs_diff_table = generateTable()
 
 if __name__ == "__main__":
 
-    data = "This is a test for john oliver. This is a string. Hello Hello Hello OPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQ"
+    data = "This is a very long sentence that is just about how long this sentence is and is devoid of much content at all. It goes on, and on, and on, and on and on and one since we need a reasonably long setence to test tsch. Blah blah blah blah blah blah blah blah ablh blah blah blah blah blah blah. blah blah blah"
     tmp_a = Tlsh()
     tmp_a.update(data)
     tmp_a.final()
