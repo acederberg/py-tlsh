@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "py-tlsh"
+version = "0.1.0"
+description = "A pure (and idiomatic) implementation of TLSH."
+authors = ["Adrian Cederberg <adrn.cederberg123@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.7^"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
