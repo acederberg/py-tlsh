@@ -21,3 +21,8 @@ pyyaml = "^6.0.2"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+tlsh = "tlsh.__main__:cli"
+
+

@@ -1,3 +1,5 @@
+import pathlib
+
 import pydantic
 import pytest
 import yaml
@@ -5,7 +7,7 @@ import yaml
 import tlsh
 
 
-class HashingCase:
+class HashingCase(pydantic.BaseModel):
     input: str
     output: str
 
@@ -16,7 +18,7 @@ class Cases(pydantic.BaseModel):
     @classmethod
     def fromYaml(cls):
 
-        with open("cases.yaml", "r") as file:
+        with open(pathlib.Path(__file__).resolve().parent / "cases.yaml", "r") as file:
             data = yaml.safe_load(file)
 
         return cls.model_validate(data)
