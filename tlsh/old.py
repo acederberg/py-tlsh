@@ -849,9 +849,57 @@ bit_pairs_diff_table = generateTable()
 
 
 if __name__ == "__main__":
+    import yaml
 
-    data = "This is a very long sentence that is just about how long this sentence is and is devoid of much content at all. It goes on, and on, and on, and on and on and one since we need a reasonably long setence to test tsch. Blah blah blah blah blah blah blah blah ablh blah blah blah blah blah blah."
-    tmp_a = Tlsh()
-    tmp_a.update(data)
-    tmp_a.final()
-    print(tmp_a.hash())
+    data = """
+    # This is Some Markdown
+
+    Markdown is an almost universal standard for writing text files.
+    It is often used for documentation, as a base in tools like pandoc and
+    quarto, and is indispensible in github discussions.
+
+    ## Here is a Subheader
+
+    Blah blah blah
+    """
+    data_again = """
+    # This is Some Markdown
+
+    `markdown` is an almost universal standard for writing text files.
+    It is often used for documentation, as a base in tools like `pandoc` and 
+    `quarto`, and is indispensible in github discussions.
+
+    ## Here is a Subheader
+
+    Blah blah blah
+
+    ## Here is another subheader
+    """
+
+    # data = 4096 * "abcd"
+    # data_again = 4096 * "abcd"
+
+    first = Tlsh()
+    first.update(data)
+    first.final()
+
+    second = Tlsh()
+    second.update(data_again)
+    second.final()
+
+    table = generateTable()
+    print(
+        yaml.dump(
+            {
+                "comparison": [
+                    {
+                        "first": data,
+                        "first_hash": (data_first_hash := first.hash()),
+                        "second": data_again,
+                        "second_hash": (data_second_hash := second.hash()),
+                        "diff": totalDiff(table, first, second),
+                    }
+                ]
+            }
+        )
+    )

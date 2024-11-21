@@ -5,3 +5,66 @@ hashing:
     output: e7d012525ec400e00b14e07d05d37647d75886add3543cb07167e1ab3f424490f37ad9
   - input: "This is a very long sentence that is just about how long this sentence is and is devoid of much content at all. It goes on, and on, and on, and on and on and one since we need a reasonably long setence to test tsch. Blah blah blah blah blah blah blah blah ablh blah blah blah blah blah blah. blah blah blah"
     output: 18e012525ec400e00f14e07d05d37647d75886add3543cb07167e1ab3f424490f37ad9
+comparison:
+  - diff: 0
+    first: |
+      This is a very long sentence that is just about how long this sentence is and
+      is devoid of much content at all. It goes on, and on, and on, and on and on and
+      one since we need a reasonably long setence to test tsch. Blah blah blah blah blah
+      blah blah blah ablh blah blah blah blah blah blah.
+    first_hash: e7d012525ec400e00b14e07d05d37647d75886add3543cb07167e1ab3f424490f37ad9
+    second: |
+      This is a very long sentence that is just about how long this sentence is and
+      is devoid of much content at all. It goes on, and on, and on, and on and on and
+      one since we need a reasonably long setence to test tsch. Blah blah blah blah blah
+      blah blah blah ablh blah blah blah blah blah blah.
+    second_hash: e7d012525ec400e00b14e07d05d37647d75886add3543cb07167e1ab3f424490f37ad9
+  - diff: 331
+    first: |
+      This is a very long sentence that is just about how long this sentence is and
+      is devoid of much content at all. It goes on, and on, and on, and on and on and
+      one since we need a reasonably long setence to test tsch. Blah blah blah blah blah
+      blah blah blah ablh blah blah blah blah blah blah.
+    first_hash: e7d012525ec400e00b14e07d05d37647d75886add3543cb07167e1ab3f424490f37ad9
+    second: |
+      Lorem ipsum odor amet, consectetuer adipiscing elit. Facilisi commodo platea
+      arcu; nisl lectus primis. Potenti aliquam pulvinar tempor nulla; laoreet auctor
+      montes. Malesuada interdum magna orci turpis ultricies ridiculus morbi. Hendrerit
+      et aptent risus; blandit suscipit molestie quam aenean dignissim. Facilisi primis
+      praesent himenaeos, litora molestie montes. Dolor accumsan maximus diam sem neque
+      morbi. Eu consequat etiam laoreet praesent; praesent erat. Tellus inceptos malesuada
+      ligula mauris libero hac. Vitae vestibulum per laoreet; amet tempor porttitor. Cras
+      velit commodo rutrum mus, lacus morbi vivamus. Torquent tellus metus facilisis sem
+      justo urna congue egestas bibendum. Posuere finibus massa quis dis sem purus suscipit.
+      Nisi condimentum accumsan senectus ac quam, eu lorem lectus a. Scelerisque sagittis
+      potenti; vehicula gravida odio in. Integer et venenatis tincidunt himenaeos tortor
+      tempus orci morbi. Sit in gravida aliquam mauris conubia dolor. Suspendisse in eleifend
+      sollicitudin dignissim, platea nascetur viverra. Sem facilisi interdum cursus risus
+      justo. Taciti quam montes ultricies convallis taciti purus faucibus phasellus. Sodales
+      turpis ullamcorper metus ac accumsan convallis. Pharetra imperdiet egestas neque
+      sodales urna; sociosqu dis. Magnis condimentum habitasse sociosqu nec elementum
+      dapibus. Ultricies nec volutpat laoreet aliquet fermentum aenean aliquet vitae.
+      Odio auctor pretium aliquam litora vehicula. Magna elit himenaeos suscipit; iaculis
+      fringilla habitant vulputate eget. Habitant morbi iaculis ante torquent ipsum nascetur
+      ad inceptos. Praesent accumsan velit eleifend tincidunt imperdiet platea metus.
+      Volutpat nostra mauris dictum dis nulla vitae sapien. Finibus condimentum ex fringilla
+      nunc consectetur aliquet accumsan. Semper ullamcorper convallis cursus nec, nostra
+      metus quisque. Ante enim viverra magnis imperdiet tempus. Pulvinar leo sagittis
+      interdum elit est. Netus ridiculus placerat metus, libero penatibus maecenas pretium.
+      Auctor erat commodo praesent; consectetur massa ante adipiscing. Fusce neque laoreet
+      ac felis nisl etiam! Sagittis mi urna lobortis in dui erat? Aliquet elit natoque
+      at accumsan diam pharetra in erat. Semper mollis mus tortor ultricies fames montes
+      fermentum ornare cras. Morbi ac luctus eu eget bibendum cras eu accumsan. Pulvinar
+      tempus odio curae sed porta. Elit aenean nullam convallis semper fames. Morbi quis
+      lacus mattis morbi adipiscing volutpat tellus at.
+    second_hash: 8c5196702fcf070153a213ea8a8eca3ff549e45016d56359ac9a2b1db9dd828c31379c
+  - diff: 13
+    first: abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3
+    first_hash: 462100306e8a04280a20c8ae30ce32ae0038e282870cc13220ccbe633e822002f3c0c0
+    second: abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3abcdefg blah blah foo bar spam 1 2 3
+    second_hash: db4102306e8a04280a20c8ae30ce32ae0038e282870cc13220ccbe633e822002f3c0c0
+  - diff: 115
+    first: "\n    # This is Some Markdown\n\n    Markdown is an almost universal standard for writing text files.\n    It is often used for documentation, as a base in tools like pandoc and\n    quarto, and is indispensible in github discussions.\n\n    ## Here is a Subheader\n\n    Blah blah blah\n    "
+    first_hash: b5d0c290ad4062f58126d98145b17510ff3c05db7360209874acd0ca7f3d4021d23a0c
+    second: "\n    # This is Some Markdown\n\n    `markdown` is an almost universal standard for writing text files.\n    It is often used for documentation, as a base in tools like `pandoc` and \n    `quarto`, and is indispensible in github discussions.\n\n    ## Here is a Subheader\n\n    Blah blah blah\n\n    ## Here is another subheader\n    "
+    second_hash: 1fe086989d2062f5c275d981d5e27950ff7c06db77643099745cc0ce6f3a1052d27919
